@@ -1,0 +1,1 @@
+var sportsStoreModule = angular.module('sportsStore', []);
