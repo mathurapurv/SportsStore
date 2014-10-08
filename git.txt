@@ -3,22 +3,29 @@
 https://github.com/mathurapurv/Utility.git
 
 
-git remote add origin https://github.com/mathurapurv/Utility.git
+git remote add origin https://github.com/mathurapurv/SportsStore.git
 
 
 
 
+cd <location to project base dir>
+/f/work/eclipse-helios/workspacehelios/Utility
+-- create a local repo 
+git init
+
+
+-- check status of what files are pending
+-- for initial commit , all files shown as pending
 git status
 
-git add Readme.txt
+-- add all the files as "tracked"
+git add *
+-- check again 
+git status
 
-git commit -m “Add Readme.txt”
+-- add remote repository at the same location
+git remote add origin https://github.com/mathurapurv/SportsStore.git
 
-git remote add origin https://github.com/mathurapurv/Utility.git
+git commit -m *
 
 git push -f origin master
-
-F:\work\eclipse-helios\workspacehelios\Utility
-
-
-/f/work/eclipse-helios/workspacehelios/Utility
