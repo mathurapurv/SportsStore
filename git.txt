@@ -1,0 +1,24 @@
+
+
+https://github.com/mathurapurv/Utility.git
+
+
+git remote add origin https://github.com/mathurapurv/Utility.git
+
+
+
+
+git status
+
+git add Readme.txt
+
+git commit -m “Add Readme.txt”
+
+git remote add origin https://github.com/mathurapurv/Utility.git
+
+git push -f origin master
+
+F:\work\eclipse-helios\workspacehelios\Utility
+
+
+/f/work/eclipse-helios/workspacehelios/Utility
