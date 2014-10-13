@@ -6,7 +6,7 @@ https://github.com/mathurapurv/Utility.git
 git remote add origin https://github.com/mathurapurv/SportsStore.git
 
 
-
+ 
 
 cd <location to project base dir>
 /f/work/eclipse-helios/workspacehelios/Utility
@@ -29,3 +29,20 @@ git remote add origin https://github.com/mathurapurv/SportsStore.git
 git commit -m *
 
 git push -f origin master
+
+
+########  check out project #####
+
+got to a folder above the project folder (eg workspace folder )
+cd D:\work\eclipse\workspace
+git clone https://github.com/mathurapurv/SportsStore.git
+(creates a new folder "SportsStore" )
+
+
+
+
+
+
+
+
+
