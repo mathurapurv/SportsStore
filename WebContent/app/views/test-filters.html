@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Test Filters</title>
+		<script src="../lib/angular/angular.js"></script>
+		<script src="../ngmodules/app.js"></script>
+		<script src="../controllers/TestFiltersController.js"></script>
+
+
+		<link href="../css/bootstrap.css" rel="stylesheet" />
+		<link href="../css/bootstrap-theme.css" rel="stylesheet" />
+	</head>
+	<body ng-app="sportsStore">
+	<div ng-controller="testfilterCtrl">
+
+		<div class="well">
+			Original : {{v1}} 
+			<br /> 
+			Uppercase : {{v1 | uppercase }}
+			<br /> 
+			From Cntrl : {{v2}}
+		</div>
+		
+		<div class="well">
+			Original : {{v1}} 
+			<br /> 
+			chained - Uppercase - lowercase  : {{v1 | uppercase | lowercase }}
+		</div>
+
+
+
+
+
+	</div>
+</body>
+</html>
