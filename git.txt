@@ -9,7 +9,9 @@ git remote add origin https://github.com/mathurapurv/SportsStore.git
  
 
 cd <location to project base dir>
-/f/work/eclipse-helios/workspacehelios/Utility
+/d/work/eclipse/workspace/SportsStore
+
+
 -- create a local repo 
 git init
 
@@ -37,6 +39,12 @@ got to a folder above the project folder (eg workspace folder )
 cd D:\work\eclipse\workspace
 git clone https://github.com/mathurapurv/SportsStore.git
 (creates a new folder "SportsStore" )
+
+########  update  project from repo (pull) #####
+got to a   project folder
+cd D:\work\eclipse\workspace\SportsStore
+git pull  -f origin master
+
 
 
 
